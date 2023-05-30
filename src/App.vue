@@ -40,9 +40,9 @@
 
       <v-toolbar-title>Application</v-toolbar-title>
     </v-app-bar>
-
+<!-- adding router  -->
     <v-main>
-      <!--  -->
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
